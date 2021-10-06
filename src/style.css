@@ -24,6 +24,7 @@ nav img {
 div.slider {
   width: 100%;
   height: 70vh;
+  background-image: url(./iStock-1144-min.jpg);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
