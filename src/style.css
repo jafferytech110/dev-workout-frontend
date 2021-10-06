@@ -30,6 +30,10 @@ div.slider {
   background-size: cover;
   position: relative;
   opacity: 1;
+  -webkit-transition: background-image 1s ease-in-out;
+  -moz-transition: background-image 1s ease-in-out;
+  -ms-transition: background-image 1s ease-in-out;
+  -o-transition: background-image 1s ease-in-out;
   transition: background-image 1s ease-in-out;
   filter: brightness(80%);
 }
