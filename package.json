@@ -1,0 +1,37 @@
+{
+  "name": "dev-workout-frontend",
+  "version": "1.0.0",
+  "description": "Job challenge",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jafferytech110/dev-workout-frontend.git"
+  },
+  "keywords": [
+    "Pug",
+    "template",
+    "webPack",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": "JafferyTech",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jafferytech110/dev-workout-frontend/issues"
+  },
+  "homepage": "https://github.com/jafferytech110/dev-workout-frontend#readme",
+  "dependencies": {
+    "webpack": "^5.57.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "devDependencies": {
+    "css-loader": "^6.3.0",
+    "pug-cli": "^1.0.0-alpha6",
+    "style-loader": "^3.3.0"
+  }
+}
